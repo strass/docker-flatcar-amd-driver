@@ -1,3 +1,14 @@
+# Flatcar Container Linux AMD Driver
+
+docker build --build-arg FLATCAR_VERSION=5.15.119 --build-arg AMD_DRIVER_VERSION=latest .
+
+https://wiki.archlinux.org/title/AMDGPU
+http://repo.radeon.com
+https://amdgpu-install.readthedocs.io/en/latest/install-prereq.html#downloading-the-installer-package
+
+---
+
+# OLD
 # Flatcar Container Linux Nvidia Driver
 
 Leveraging NVIDIA GPUs on Container Linux involves the following steps:
